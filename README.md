@@ -8,4 +8,10 @@ This chrome extension helps you find how much sellers are charging other custome
 2) Go to a seller's profile
 3) Check the reviews
 
+### Without F-HMSIP
+
+![Screenshot](./example-without.png)
+
+### With F-HMSIP
+
 ![Screenshot](./example.png)
