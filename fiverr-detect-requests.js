@@ -1,5 +1,4 @@
-console.log('ok')
-let ignoreRequests = [];
+const ignoreRequests = [];
 
 chrome.webRequest.onCompleted.addListener(
     async function (details) {
