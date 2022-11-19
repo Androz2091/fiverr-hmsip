@@ -1,6 +1,10 @@
 # Fiverr, How Much Should I Pay?
 
-This chrome extension helps you find how much sellers are charging other customers.
+This chrome extension helps you find how much Fiverr sellers are charging other customers.
+
+* On a seller side, this is useful so you know how much your buyers spend with other sellers.
+
+* On a buyer side, this is useful when you receive an estimate from a seller so you know if they are used to charge that price to other buyers.
 
 ## How to use
 
