@@ -84,7 +84,8 @@ const appendReviewDetails = (review) => {
 
 setTimeout(async () => {
 
-    const perseusJson = document.querySelector('#perseus-initial-props').textContent.slice(2);
+    const perseusJson = document.querySelector('#perseus-initial-props')?.textContent?.slice(2);
+    if (!perseusJson) return;
     const { sellerId: userId } = JSON.parse(perseusJson);
     console.log(`Found user id: ${userId}`);
     if (!userId) return;
