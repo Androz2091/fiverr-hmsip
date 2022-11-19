@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Fiverr HMSIP",
+    "version": "1.0",
+    "description": "Fverr HMSIP",
+    "host_permissions": [
+        "https://www.fiverr.com/*"
+    ],
+    "permissions": [
+        "activeTab",
+        "webRequest"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+               "https://www.fiverr.com/*"
+            ],
+            "js": [
+                "fiverr-update-page.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "service_worker": "fiverr-detect-requests.js"
+    }
+}
